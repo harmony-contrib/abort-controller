@@ -1,0 +1,4 @@
+*.har
+.DS_Store
+.vscode/
+.idea/

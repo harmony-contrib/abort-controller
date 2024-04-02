@@ -1,0 +1,18 @@
+{
+  license: "MIT",
+  author: "southorange0929",
+  name: "@ohos-rs/abort-controller",
+  description: "AbortController for OpenHarmony based on emitter",
+  main: "index.ets",
+  version: "0.0.1",
+  repository: "https://github.com/ohos-rs/abort-controller.git",
+  dependencies: {},
+  keywords: [
+    "ohos-rs",
+    "AbortController",
+    "AbortSignal",
+    "fetch",
+    "abort"
+  ],
+  homepage: "https://ohos-rs.github.io/ecosystem/polyfill/abort-controller.html"
+}
