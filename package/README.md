@@ -2,6 +2,8 @@
 
 AbortController for OpenHarmony based on `emitter`.
 
+> The bulk of the code in this project is derived from [node-abort-controller](https://github.com/southpolesteve/node-abort-controller), with certain alterations made to suit the features of HarmonyOS.
+
 ## Required
 
 API Version >= 11
