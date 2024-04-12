@@ -4,7 +4,7 @@
   name: "@ohos-rs/abort-controller",
   description: "AbortController for OpenHarmony based on emitter",
   main: "index.ets",
-  version: "0.0.1",
+  version: "0.0.2",
   repository: "https://github.com/ohos-rs/abort-controller.git",
   dependencies: {},
   keywords: [

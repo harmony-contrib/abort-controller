@@ -1,8 +1,8 @@
 import emitter from "@ohos.events.emitter";
 
 export class AbortSignal {
-  onabort: ESObject;
-  aborted: ESObject;
+  onabort: null | ((this: AbortSignal, event: ESObject) => void);;
+  aborted: boolean;
   reason: ESObject;
 
   constructor() {
@@ -46,7 +46,7 @@ export class AbortSignal {
 }
 
 export class AbortController {
-  signal: ESObject;
+  signal: AbortSignal;
   constructor() {
     this.signal = new AbortSignal();
   }
